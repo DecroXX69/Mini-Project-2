@@ -7,12 +7,14 @@ html, body {
 
 .navbar {
     display: flex;
+    position: fixed;
     justify-content: space-between;
     align-items: center;
     height: 70px;
     background-color: #6F6AF7;
     color: white;
     width: 100%;
+    z-index: 1000;
 }
 
 .nav {
@@ -289,7 +291,8 @@ color: #04285a;
 
 .socials {
     position: sticky;
-    top: 5px; 
+    top: 7em; 
+    z-index:999;
 }
 
 
